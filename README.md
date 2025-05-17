@@ -1,13 +1,41 @@
-# React + Vite
+# ✅ Redux ToDo Checkpoint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This project is a simple and responsive **ToDo Application** built using **React** and **Redux Toolkit**. It was developed as part of a checkpoint assessment to demonstrate knowledge in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Creating and structuring reusable React components
+- Managing global state with Redux Toolkit
+- Implementing user interactions: **Add**, **Filter**, and **Edit** tasks
 
-## Expanding the ESLint configuration
+Each task contains a unique `id`, a `description`, and a `status` indicating whether it is completed (`isDone`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# gomycode-redux-checkpoint
+### 🧩 Features
+
+- ➕ Add a new task
+- ✅ Mark tasks as done or not done
+- 🔍 Filter tasks by status (All, Done, Not Done)
+- ✏️ Edit an existing task
+- 💾 Global state managed via **Redux Toolkit**
+
+### 🗂️ Components Structure
+
+- `AddTask`: Handles user input to create new tasks
+- `ListTask`: Displays and filters tasks
+- `Task`: Represents each individual task with editing and status toggling
+
+---
+
+## 👩‍💻 Author
+
+**Grace Wambui Mugece**  
+Developing software engineer with a focus on front-end web development.
+
+---
+
+## 🧠 Conclusion
+
+This project demonstrates how Redux Toolkit simplifies state management in a React app, especially in cases that require global data sharing and updates like a ToDo list. It was a great hands-on experience that reinforced my understanding of React-Redux integration, component structure, and user interactivity.
+
+Thanks for checking it out! ⭐
+
